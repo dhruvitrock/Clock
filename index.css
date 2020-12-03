@@ -4,6 +4,8 @@
     margin: auto;
      width: 40vw;
      height: 40vw;
+     width: 440px;
+     height: 440px;
      background: url(clock.jpg) no-repeat;
      background-size: 100%;
 }
@@ -11,18 +13,17 @@
 #hour,#minute,#second{
     position: absolute;
     border-radius: 20px;
-    background: black;
+    background: wheat;
     transform-origin: bottom;
     
 }
 
 #hour{
-    width: 1.5%;
-    height: 27%;
+    width: 1.2%;
+    height: 26.5%;
     left: 49.7%;
     top: 23%;
     opacity: 0.8;
-    
     
 }
 #minute{
@@ -31,16 +32,16 @@
     left: 49.7%;
     top: 20%;
     opacity: 0.8;
-    
+
+
    
     
 }
 #second{
     width: 1%;
-    height: 33%;
-    left: 49.7%;
-    top: 17%;
+    height: 31.8%;
+    left: 49.8%;
+    top: 18%;
     opacity: 0.8;
-    
-    
+ 
 }
